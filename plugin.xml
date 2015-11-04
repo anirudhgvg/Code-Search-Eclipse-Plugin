@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+<<<<<<< HEAD
+            name="Code Search"
+            id="SearchCode">
+      </category>
+      <view
+            allowMultiple="false"
+            name="Web View"
+            icon="icons/sample.gif"
+            category="SearchCode"
+            class="searchcode.views.WebView"
+            id="searchcode.views.WebView">
+      </view>
+      <view
+            allowMultiple="false"
+            name="Repository View"
+            icon="icons/sample.gif"
+            category="SearchCode"
+            class="searchcode.views.RepositoryView"
+            id="searchcode.views.RepositoryView">
+=======
+            name="Sample Category"
+            id="samplePlugin">
+      </category>
+      <view
+      		allowMultiple="false"
+            name="Sample View"
+            icon="icons/sample.gif"
+            category="samplePlugin"
+            class="sampleplugin.views.SampleView"
+            id="sampleplugin.views.SampleView">
+      </view>
+       <view
+       		allowMultiple="false"
+            name="Sample View2"
+            icon="icons/sample.gif"
+            category="samplePlugin"
+            class="sampleplugin.views.SampleView2"
+            id="sampleplugin.views.SampleView2">
+>>>>>>> 1e1d6c021aeaf0f8f2f3a04751822b2fcf62430d
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               ratio="0.5"
+               relative="org.eclipse.ui.views.ProblemView"
+               relationship="right"
+<<<<<<< HEAD
+               id="searchcode.views.SearchCodeView">
+=======
+               id="sampleplugin.views.SampleView">
+>>>>>>> 1e1d6c021aeaf0f8f2f3a04751822b2fcf62430d
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+<<<<<<< HEAD
+<extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="PopMenu.contribution1"
+            objectClass="org.eclipse.ui.IEditorInput">
+         <menu
+               id="PopMenu.menu1"
+               label="Search CodeSnippets"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="searchcode.views.SearchWebMenu"
+               enablesFor="1"
+               id="PopMenu.newAction"
+               label="Search Web"
+               menubarPath="PopMenu.menu1/group1">
+         </action>
+         <action
+               class="searchcode.views.SearchDBMenu"
+               enablesFor="1"
+               id="PopMenu.newAction"
+               label="Search Repository"
+               menubarPath="PopMenu.menu1/group1">
+         </action>
+      </objectContribution>
+   </extension>
+=======
+>>>>>>> 1e1d6c021aeaf0f8f2f3a04751822b2fcf62430d
+
+</plugin>

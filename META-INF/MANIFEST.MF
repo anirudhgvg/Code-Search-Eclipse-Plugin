@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SearchCode
+Bundle-SymbolicName: SearchCode;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: searchcode.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.7.0",
+ org.eclipse.ui.workbench.texteditor;bundle-version="3.8.101",
+ org.eclipse.core.resources;bundle-version="3.8.101",
+ org.eclipse.wst.server.core;bundle-version="1.5.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

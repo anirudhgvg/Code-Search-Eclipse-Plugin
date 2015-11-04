@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSnippet>
+<Code ID="1">
+      <Tags>class eclipse</Tags>
+      <Title>How to define class in eclipse</Title>
+      <Snippet>public class test{}</Snippet>
+      <TimeStamp>05/11/2014 13:50:36</TimeStamp>
+   </Code>
+<Code ID="4">
+      <Tags>button java eclipse</Tags>
+      <Title>How to create a new button in eclipse using java</Title>
+      <Snippet>Sample code snippet with tags button,java,eclipse.</Snippet> 
+      <TimeStamp>05/11/2014 11:56:36</TimeStamp>
+   </Code>
+<Code ID="5">
+      <Tags>eclipse swt jbutton widgetSelected SelectionEvent browser refresh </Tags>
+      <Title>How to implement the widgetSelected method in eclipse using java</Title>
+      <Snippet>public void widgetSelected(SelectionEvent event) {&#13;
+            browser.refresh(); &#13;
+           } &#13;
+        }); </Snippet>
+      <TimeStamp>05/11/2014 10:56:36</TimeStamp>
+   </Code>
+<Code ID="6">
+<Tags>java swt jbutton</Tags>
+<Title>Example for using swt button in eclipse using java</Title>
+      <Snippet>Sample code snippet  in swt with java code.</Snippet>
+      <TimeStamp>05/11/2014 09:56:36</TimeStamp>
+   </Code>
+<Code ID="7">
+      <Tags>eclipse java swt</Tags>
+      <Title>How to refresh the Eclipse browser control using java</Title>
+      <Snippet>public class CodeEditor {&#13;
+&#13;
+    /**&#13;
+     * @param args&#13;
+     */&#13;
+    public static void main(String[] args) {&#13;
+//SAple code to test update &#13;
+        &#13;
+    }</Snippet>
+      <TimeStamp>06/11/2014 19:25:01</TimeStamp>
+   </Code>
+
+<Code ID="9">
+      <Tags>jbutton widget SWT</Tags>
+      <Title>Create a SWT widget in eclipse</Title>
+      <Snippet>public void widgetSelected(SelectionEvent event) {&#13;
+            browser.refresh();&#13;
+        browser.setUrl("http://www.google.co.in");&#13;
+          }&#13;
+        });</Snippet>
+      <TimeStamp>26/11/2014 20:41:19</TimeStamp>
+   </Code>
+<Code ID="10">
+      <Tags>eclipse java swt MessageDialog</Tags>
+      <Title>perform message dialog in swt java</Title>
+      <Snippet>this snippet is used to perform message dialog operation using swt in eclipsea.&#13;
+/**&#13;
+     * @&#13;
+     */&#13;
+    public static void main(String[] args) {</Snippet>
+      <TimeStamp>18/12/2014 17:38:20</TimeStamp>
+   </Code>
+<Code ID="11">
+      <Tags>eclipse java swt JFace MessageDialog</Tags>
+      <Title>How to add Jface dialog to eclipse java</Title>
+      <Snippet>/**&#13;
+ * This is a sample code snippet for updating snippet&#13;
+ */&#13;
+package com.sase.code.editor;&#13;
+&#13;
+&#13;
+/**&#13;
+ * @author &#13;
+ *&#13;
+ */&#13;
+public class CodeEditor {&#13;
+&#13;
+    /**&#13;
+     * @param args&#13;
+     */&#13;
+    public static void main(String[] args) {&#13;
+&#13;
+        &#13;
+    }&#13;
+}</Snippet>
+      <TimeStamp>18/12/2014 18:12:39</TimeStamp>
+   </Code>
+<Code ID="12">
+      <Tags>eclipse java swt</Tags>
+      <Title>How to apply comments in swt eclipse java</Title>
+      <Snippet>/**&#13;
+ * This is a sample code snippet for updating snippet&#13;
+ */&#13;
+&#13;
+&#13;
+&#13;
+/**&#13;
+ * @author &#13;
+ *&#13;
+ */&#13;
+public class CodeEditor {&#13;
+&#13;
+    /**&#13;
+     * @param args&#13;
+     */&#13;
+    public static void main(String[] args) {&#13;
+&#13;
+        &#13;
+    }&#13;
+}</Snippet>
+      <TimeStamp>25/12/2014 12:40:30</TimeStamp>
+   </Code>
+<Code ID="13">
+      <Tags>java swt </Tags>
+      <Title>Simple editted comments</Title>
+      <Snippet>/**&#13;
+ * @author &#13;
+ *&#13;
+ */&#13;
+public class CodeEditor {&#13;
+&#13;
+    /**&#13;
+     * @param args&#13;
+     */&#13;
+    public static void main(String[] args) {&#13;
+&#13;
+        &#13;
+    }&#13;
+}</Snippet>
+      <TimeStamp>25/12/2014 13:02:30</TimeStamp>
+   </Code>
+
+</CodeSnippet>

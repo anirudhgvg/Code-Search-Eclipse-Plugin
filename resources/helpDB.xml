@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HelpContents>
+    <Help id="1">
+        <Topic>1. Search Code Snippet</Topic>
+        <Description>1.The user can choose simultaneously search the web and his own repository to search query for a code snippet.
+&#xA;2.The user can enter the keywords directly in the text box provided of each view. 
+&#xA;3. If the user is working in the code window, he can enter search query by highlighting the part of code and choose to send it to any of the two views. After highlighting, the user needs to choose to send to a view of his choice under CodeSearch options of right click menu.
+&#xA;4. For searching web, the user needs to select a search engine from the provided options to display the corresponding results. The user may copy the code snippets to his code window and save for further use. 
+&#xA;5.The user also has a choice to search for the recently saved snippets in the repository, by clicking on the "Show Recent" button
+        </Description>
+    </Help>
+    <Help id="2">
+        <Topic>2. Store Code Snippet</Topic>
+        <Description>1.Copy the code snippet to the Store Snippets text area present in the Search Repository view.
+&#xA;2.Provide the title in the title text box provided.
+&#xA;3.Tags are auto-suggested by the plug-in. The user can add user specific tags to enable easier retrieval.
+&#xA;4.Select the save option provided in the search repository after providing all the above mentioned mandatory fields.
+&#xA;5.Successful save message would pop up once the snippet is saved to the repository.
+&#xA;6.In order to check whether the code snippet is saved successfully to the repository,the developer can search for the stored code snippet in the repository by entering the tag of the code snippet. Based on the tag name, the search results are fetched in the Search Snippets section of the Search Repository view.
+    </Description>
+    </Help>
+    <Help id="3">
+        <Topic>3. Manage Code Snippet</Topic>
+        <Description>1.The developer can also manage the code snippets stored in the repository by appending some lines of code to the existing code snippet or deleting the entire snippet.
+&#xA;2.Enter the tag name of the code snippet in the keyword text box of the search repository section.
+&#xA;3.Clicking the search button will fetch all the relevant tag names in the below text box.
+&#xA;4.The developer can select the required code snippet based on the title of the snippets listed. 
+&#xA;5.The developer can add or remove any part of the code snippet and again save them to the repository.
+&#xA;6.At any point of time, a snippet can be deleted by clicking the delete icon.Successful delete message would pop up once the snippet is deleted from the repository.</Description>
+    </Help>
+</HelpContents>
